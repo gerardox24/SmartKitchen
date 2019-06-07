@@ -54,14 +54,14 @@ function setup() {
 
     // slider = createSlider(0, 1, 0.5, 0.01);
 
-    ukeButton = createButton('add banana');
+    ukeButton = createButton('add mouse');
     ukeButton.mousePressed(function() {
-        classifier.addImage('banana');
+        classifier.addImage('mouse');
     });
 
-    whistleButton = createButton('add orange');
+    whistleButton = createButton('add telephone');
     whistleButton.mousePressed(function() {
-        classifier.addImage('orange');
+        classifier.addImage('telephone');
     });
 
     // addButton = createButton('add example image');

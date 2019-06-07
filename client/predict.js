@@ -7,7 +7,7 @@ let value = 0;
 
 function modelReady() {
     console.log('Model is ready!!!!');
-    classifier.load('model_banana.json', customModelReady);
+    classifier.load('model.json', customModelReady);
 }
 
 function customModelReady() {
